@@ -1,0 +1,113 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+  margin: 0;
+  text-align: center;
+  background-color: #ffffff;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.hero {
+  background-image: url(./images/dubai.jpg);
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 1000px;
+  height: 450px;
+  color: white;
+}
+
+h1 {
+  background-color: #1d3557;
+  padding: 4px 12px;
+  border-radius: 6px;
+  font-size: 32px;
+  margin-bottom: 11px;
+}
+
+h2 {
+  background-color: #457b9d;
+  font-size: 19px;
+  margin-top: 11px;
+}
+
+.activities img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.main {
+  background-color: #f1faee;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 38px;
+  width: 890px;
+  height: 360px;
+  box-sizing: border-box;
+}
+
+.main h3 {
+  text-align: left;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.activities {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 55px;
+  width: 900px;
+  height: 300px;
+  gap: 30px;
+  box-sizing: border-box;
+}
+
+h4 {
+  font-size: 16px;
+  font-family: bold;
+}
+
+.guide {
+  margin-top: 38px;
+}
+
+.guide img {
+  width: 150px;
+  height: 200px;
+}
+
+.guide {
+  width: 1000px;
+}
+
+.avatar {
+  width: 900px;
+  height: 220px;
+}
+
+.card {
+  width: 500px;
+  margin: 90px auto;
+  padding: 70px 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #a8dadc;
+  color: #2b2839;
+  box-shadow: 0 8px #1d3557;
+  border-radius: 10px;
+  gap: 20px;
+  box-sizing: border-box;
+}
